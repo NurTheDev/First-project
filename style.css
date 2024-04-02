@@ -7,8 +7,8 @@ header{
     background-image: url(banner1.png);
     background-size: 100vw;
     background-repeat: no-repeat;
-    width: 1600px;
-    height: 808px;
+    width: 100vw;
+    height: 100vh;
 }
 .heading-title{
     width: 525px;
@@ -39,4 +39,38 @@ header{
     float: right;
     box-shadow: 3px 4px 8px #FD6E0A;
     background-image: linear-gradient(45deg, salmon, orange);
+}
+.avater-img{
+    width: 570px;
+    height: 667px;
+}
+
+ul{
+    list-style: none;
+}
+ul li::before{
+    content:'✅';
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 150px;
+    padding: 100px;
+    align-items: center;
+}
+.main-contet-title{
+    width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.content-dis, li{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400px;
+    width: 420px;
+}
+li{
+margin-left: -40px;
 }
